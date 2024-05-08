@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6554199645611741810}
   - component: {fileID: 3445965431815636140}
   - component: {fileID: 877376623557639382}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pewjectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -172,4 +172,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pewDefence: {fileID: 6554199645611741810}
-  speed: 2.5
+  speed: 5
+  range: 3
+  damage: 2
+  knockbackForce: 5
